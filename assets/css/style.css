@@ -115,6 +115,10 @@ section.hero div.container p span {
 }
 
 /* footer */
+footer {
+    margin-top: 10px;
+}
+
 footer p {
     color: #525252;
     font-size: 12px;
@@ -152,6 +156,10 @@ footer p a:hover {
     section.hero div.kanan {
         margin-top: 20px;
         text-align: center;
+    }
+
+    footer {
+        margin-top: 40px;
     }
 
     footer p {
