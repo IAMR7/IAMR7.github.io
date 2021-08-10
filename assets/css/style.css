@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Nunito',sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* navbar */
+nav.navbar {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+div.navbar-nav a.nav-link {
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 43px;
+    color: #525252 !important;
+}
+
+div.navbar-nav a.nav-link.active {
+    color: #65A1E9 !important;
+    font-weight: 800;
+}
+
+div.navbar-nav a.nav-link:hover {
+    color: #65A1E9 !important;
+}
+
+div.share-sosmed a {
+    text-decoration: none;
+}
+
+div.share-sosmed a i:hover {
+    color: #65A1E9 !important;
+}
+
+div.share-sosmed i {
+    margin-right: 27px;
+    font-size: 20px;
+    color: #C5C5C5;
+}
+
+button.navbar-toggler {
+    border: none;
+    color: #525252 !important;
+}
+
+/* hero */
+section.hero div.container div.row {
+    text-align: center;
+}
+
+section.hero div.container {
+    background-color: #F8F8F8;
+    height: 600px;
+}
+
+section.hero div.kiri {
+    margin-top: 30px;
+    text-align: center;
+}
+
+section.hero div.kiri h1 {
+    font-size: 30px;
+}
+
+a.btn-cta {
+    background-color: transparent;
+    border: 2.5px solid #305D93;
+    padding: 12px;
+    color: #305D93 !important;
+    font-size: 12px;
+    font-weight: 700;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a.btn-cta:hover {
+    background-color: #305D93;
+    color: white !important;
+}
+
+a.btn-cta i {
+    font-size: 18px;
+}
+
+section.hero div.kanan {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+section.hero div.container h4, section.hero div.container h1 {
+    font-weight: 900;
+    color: #4F4F4F;
+}
+
+section.hero div.container h1 span {
+    color: #65A1E9;
+    margin-top: 10px;
+}
+
+section.hero div.container p {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+section.hero div.container p span {
+    color: #65A1E9;
+}
+
+/* footer */
+footer p {
+    color: #525252;
+    font-size: 12px;
+}
+
+footer p a {
+    font-weight: 600;
+    color: #65A1E9;
+}
+
+footer p a:hover {
+    color: #305D93;
+    text-decoration: none;
+}
+
+@media (min-width: 576px) {
+    
+    section.hero div.container {
+        height: 470px;
+    }
+
+    section.hero div.kiri {
+        margin-top: 130px;
+        text-align: left;
+    }
+
+    section.hero div.kiri div.text-heading {
+        margin-left: 50px;
+    }
+
+    section.hero div.kiri h1 {
+        font-size: 45px;
+    }
+    
+    section.hero div.kanan {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+
+}
