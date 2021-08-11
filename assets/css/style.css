@@ -159,6 +159,17 @@ section.profil-biodata p {
     color: #525252;
 }
 
+a.instagram-reza {
+    text-decoration: none;
+    color: #65A1E9;
+}
+
+a.instagram-reza:hover {
+    text-decoration: none;
+    color: #305D93;
+    font-weight: 600;
+}
+
 /* footer */
 footer {
     margin-top: 10px;
