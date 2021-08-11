@@ -119,6 +119,46 @@ section.profil-biodata img {
     border-bottom-right-radius: 500px;
 }
 
+section.profil-biodata h1.head-section {
+    font-size: 50px;
+    font-weight: 900;
+    color: #f0f0f0;
+}
+
+section.profil-biodata h2 {
+    font-weight: 900;
+    color: #65A1E9;
+    margin-top: -50px;
+}
+
+section.profil-biodata h3 {
+    font-weight: 800;
+    font-size: 25px;
+    color: #525252;
+    text-align: center;
+    margin-top: 20px;
+}
+
+section.profil-biodata p.quotes {
+    color: #a7a7a7;
+    text-align: center;
+    font-size: 15px;
+}
+
+section.profil-biodata p i {
+    color: #305D93;
+    font-size: 25px;
+}
+
+section.profil-biodata h3 i {
+    color: #305D93;
+}
+
+section.profil-biodata p {
+    font-size: 15px;
+    color: #525252;
+}
+
 /* footer */
 footer {
     margin-top: 10px;
@@ -166,6 +206,24 @@ footer p a:hover {
     section.hero div.kanan {
         margin-top: 20px;
         text-align: center;
+    }
+    
+    section.profil-biodata h1.head-section {
+        font-size: 60px;
+    }
+
+    section.profil-biodata h3 {
+        font-size: 35px;
+        text-align: left;
+    }
+
+    section.profil-biodata p.quotes {
+        text-align: left;
+        font-size: 17px;
+    }
+
+    section.profil-biodata p {
+        font-size: 17px;
     }
 
     footer {
