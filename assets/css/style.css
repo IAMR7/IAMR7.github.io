@@ -113,6 +113,12 @@ section.hero div.container p span {
     color: #65A1E9;
 }
 
+/* profil biodata */
+section.profil-biodata img {
+    border-bottom-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+}
+
 /* footer */
 footer {
     margin-top: 10px;
