@@ -140,13 +140,13 @@ section.profil-biodata img {
     border-bottom-right-radius: 500px;
 }
 
-section.profil-biodata h1.head-section {
+section h1.head-section {
     font-size: 50px;
     font-weight: 900;
     color: #f0f0f0;
 }
 
-section.profil-biodata h2 {
+section h2 {
     font-weight: 900;
     color: #65A1E9;
     margin-top: -50px;
@@ -278,7 +278,7 @@ footer p a:hover {
         text-align: center;
     }
     
-    section.profil-biodata h1.head-section {
+    section h1.head-section {
         font-size: 60px;
     }
 
