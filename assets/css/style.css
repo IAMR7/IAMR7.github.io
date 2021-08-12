@@ -7,6 +7,27 @@
     box-sizing: border-box;
 }
 
+div.text-heading h1 {
+    overflow: hidden;
+    border-right: 5px solid #65A1E9;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 1.5px;
+    animation: 
+      typing 2.7s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #65A1E9; }
+  }
+
 /* navbar */
 nav.navbar {
     margin-top: 0;
