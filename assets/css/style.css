@@ -7,6 +7,13 @@
     box-sizing: border-box;
 }
 
+hr {
+    background-color: #f2f2f2;
+    border: none;
+    width: 100%;
+    height: 2px;
+}
+
 div.text-heading h1 {
     overflow: hidden;
     border-right: 5px solid #65A1E9;
@@ -227,6 +234,30 @@ div.list-ketertarikan p {
     color: #305D93;
     font-weight: 600;
     margin-top: 12px;
+}
+
+/* pendidikan */
+section.pendidikan {
+    color: #525252;
+}
+
+section.pendidikan h5 {
+    font-weight: 800;
+}
+
+div.list-pendidikan p.sekolah {
+    font-weight: bold;
+}
+
+div.list-pendidikan small.tahun {
+    padding: 10px;
+    text-align: center;
+    background-color: #305D93;
+    color: white;
+}
+
+p.alamat {
+    font-size: 15px;
 }
 
 /* footer */
