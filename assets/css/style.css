@@ -16,7 +16,7 @@ hr {
 
 div.text-heading h1 {
     overflow: hidden;
-    border-right: 5px solid #FD8855;
+    border-right: 5px solid #625FFF;
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: 1.5px;
@@ -32,7 +32,7 @@ div.text-heading h1 {
   
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: #FD8855; }
+    50% { border-color: #625FFF; }
   }
 
 /* navbar */
@@ -42,19 +42,19 @@ nav.navbar {
     text-align: center;
 }
 
-div.navbar-nav a.nav-link {
+div.navbar-nav a.nav-link.non-btn {
     font-size: 15px;
     margin-right: 30px;
     color: #cccccc !important;
 }
 
 div.navbar-nav a.nav-link.active {
-    color: #294C75 !important;
+    color: #625FFF !important;
     font-weight: 800;
 }
 
 div.navbar-nav a.nav-link:hover {
-    color: #294C75 !important;
+    color: #625FFF !important;
 }
 
 div.share-sosmed a {
@@ -62,7 +62,7 @@ div.share-sosmed a {
 }
 
 div.share-sosmed a i:hover {
-    color: #294C75 !important;
+    color: #625FFF !important;
 }
 
 div.share-sosmed i {
@@ -75,14 +75,24 @@ button.navbar-toggler {
     color: #525252 !important;
 }
 
+a.btn-contact {
+    background-color: #625FFF;
+    color: white !important;
+}
+
+a.btn-contact:hover {
+    background-color: #e6e6ff;
+}
+
 /* hero */
 section.hero div.container div.row {
     text-align: center;
 }
 
 section.hero div.container {
-    background-color: #F8F8F8;
+    background-color: #f8f8f8;
     height: 600px;
+    border-radius: 10px;
 }
 
 section.hero div.kiri {
@@ -96,9 +106,9 @@ section.hero div.kiri h1 {
 
 a.btn-cta {
     background-color: transparent;
-    border: 2.5px solid #305D93;
+    border: 2.5px solid #625FFF;
     padding: 12px;
-    color: #305D93 !important;
+    color: #625FFF !important;
     font-size: 12px;
     font-weight: 700;
     border-bottom-right-radius: 10px;
@@ -108,7 +118,7 @@ a.btn-cta {
 }
 
 a.btn-cta:hover {
-    background-color: #305D93;
+    background-color: #625FFF;
     color: white !important;
 }
 
@@ -121,6 +131,11 @@ section.hero div.kanan {
     text-align: center;
 }
 
+section.hero div.kanan img {
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
 
 section.hero div.container h4, section.hero div.container h1 {
     font-weight: 900;
@@ -128,7 +143,7 @@ section.hero div.container h4, section.hero div.container h1 {
 }
 
 section.hero div.container h1 span {
-    color: #FD8855;
+    color: #625FFF;
     margin-top: 10px;
 }
 
@@ -138,13 +153,13 @@ section.hero div.container p {
 }
 
 section.hero div.container p span {
-    color: #FD8855;
+    color: #625FFF;
 }
 
 /* profil biodata */
-section.profil-biodata img {
-    border-bottom-left-radius: 500px;
-    border-bottom-right-radius: 500px;
+
+section.profil-biodata div img.cover-banner {
+    border-radius: 12px;
 }
 
 section h1.head-section {
@@ -155,7 +170,7 @@ section h1.head-section {
 
 section h2 {
     font-weight: 900;
-    color: #FD8855;
+    color: #625FFF;
     margin-top: -50px;
 }
 
@@ -174,12 +189,12 @@ section.profil-biodata p.quotes {
 }
 
 section.profil-biodata p i {
-    color: #305D93;
+    color: #625FFF;
     font-size: 25px;
 }
 
 section.profil-biodata h3 i {
-    color: #305D93;
+    color: #625FFF;
 }
 
 section.profil-biodata p {
@@ -189,20 +204,24 @@ section.profil-biodata p {
 
 a.instagram-reza {
     text-decoration: none;
-    color: #FD8855;
+    color: #625FFF;
 }
 
 a.instagram-reza:hover {
     text-decoration: none;
-    color: #305D93;
+    color: #625FFF;
     font-weight: 600;
+}
+
+section.profil-biodata div.card {
+    border: none;
 }
 
 /* softskill hardskill */
 div.garis-biru {
     width: 50px;
     height: 15px;
-    background-color: #FD8855;
+    background-color: #625FFF;
     border-radius: 500px;
     margin-top: 4px;
     margin-right: 15px;
@@ -219,7 +238,7 @@ div.list-skill p {
 }
 
 div.list-skill div.bintang i {
-    color: #305D93;
+    color: #625FFF;
     font-size: 15px;
 }
 
@@ -231,7 +250,7 @@ div.list-ketertarikan {
 }
 
 div.list-ketertarikan p {
-    color: #305D93;
+    color: #625FFF;
     font-weight: 600;
     margin-top: 12px;
 }
@@ -252,7 +271,7 @@ div.list-pendidikan p.sekolah {
 div.list-pendidikan small.tahun {
     padding: 11px;
     text-align: center;
-    background-color: #305D93;
+    background-color: #625FFF;
     color: white;
 }
 
@@ -272,11 +291,11 @@ footer p {
 
 footer p a {
     font-weight: 600;
-    color: #FD8855;
+    color: #625FFF;
 }
 
 footer p a:hover {
-    color: #305D93;
+    color: #625FFF;
     text-decoration: none;
 }
 
